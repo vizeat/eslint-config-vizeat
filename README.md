@@ -7,7 +7,7 @@
 We need a few plugins that are peer dependencies of `eslint-config-standard`
 
 ```sh
-yarn add --dev eslint-config-vizeat eslint-plugin-import eslint-plugin-node eslint-plugin-promise
+yarn add --dev eslint-config-vizeat eslint-plugin-import eslint-plugin-node eslint-plugin-promise babel-eslint eslint
 ```
 
 Then, extend `vizeat` in your `.eslintrc`:
@@ -32,3 +32,5 @@ it extends `vizeat` config and add JSX / React specific rules
 
 ## A Note on Dependencies
 `eslint-config-vizeat` has `babel-eslint` and `eslint` as peer deps because it relies on recent versions of those packages for ES2015 support.
+
+It also needs `eslint-plugin-import` `eslint-plugin-node` `eslint-plugin-promise` for `eslint-config-standard`
