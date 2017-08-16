@@ -4,8 +4,10 @@
 
 ## Usage
 
+We need a few plugins that are peer dependencies of `eslint-config-standard`
+
 ```sh
-npm install --save-dev eslint-config-vizeat
+npm install --save-dev eslint-config-vizeat eslint-plugin-import eslint-plugin-node eslint-plugin-promise
 ```
 
 Then, extend `vizeat` in your `.eslintrc`:
