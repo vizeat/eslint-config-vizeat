@@ -15,5 +15,18 @@
     "eslint-config-standard-jsx": "^4.0.2",
     "eslint-plugin-react": "^7.2.1",
     "eslint-plugin-standard": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-vizeat": "^1.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "prettier-eslint-cli": "^4.2.0"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "fmt": "prettier-eslint \"{./*@(.js|.jsx),./!(node_modules)/**/*@(.js|.jsx)}\" --write"
   }
 }
