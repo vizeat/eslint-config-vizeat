@@ -38,7 +38,7 @@ or
 At VizEat we also use `prettier-eslint-cli`
 
 ```
-yarn add --dev eslint-prettier-cli
+yarn add --dev prettier-eslint-cli
 ```
 
 And setup helper script in our `package.json`:
