@@ -454,31 +454,22 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-standard-jsx@^5.0.0:
-  version "5.0.0"
-  resolved "http://registry.npmjs.org/eslint-config-standard-jsx/-/eslint-config-standard-jsx-5.0.0.tgz#4abfac554f38668e0078c664569e7b2384e5d2aa"
-
 eslint-config-standard-jsx@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-6.0.2.tgz#90c9aa16ac2c4f8970c13fc7efc608bacd02da70"
-
-eslint-config-standard@^11.0.0:
-  version "11.0.0"
-  resolved "http://registry.npmjs.org/eslint-config-standard/-/eslint-config-standard-11.0.0.tgz#87ee0d3c9d95382dc761958cbb23da9eea31e0ba"
 
 eslint-config-standard@^12.0.0:
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
 
 eslint-config-vizeat@^2.0.0:
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/eslint-config-vizeat/-/eslint-config-vizeat-2.1.7.tgz#a540a80d0e58374b0498e969a1fae7bdf9562227"
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/eslint-config-vizeat/-/eslint-config-vizeat-2.1.8.tgz#20d4e5d6b8a0e3fefe0a6e1d15ce96bd926ab9ce"
   dependencies:
-    eslint-config-standard "^11.0.0"
-    eslint-config-standard-jsx "^5.0.0"
+    eslint-config-standard "^12.0.0"
+    eslint-config-standard-jsx "^6.0.2"
     eslint-plugin-react "^7.9.1"
-    eslint-plugin-standard "^3.0.1"
-    p-limit "^1.2.0"
+    eslint-plugin-standard "^4.0.0"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
@@ -540,10 +531,6 @@ eslint-plugin-react@^7.9.1:
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
     prop-types "^15.6.2"
-
-eslint-plugin-standard@^3.0.1:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-3.1.0.tgz#2a9e21259ba4c47c02d53b2d0c9135d4b1022d47"
 
 eslint-plugin-standard@^4.0.0:
   version "4.0.0"
@@ -1270,7 +1257,7 @@ p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
 
-p-limit@^1.1.0, p-limit@^1.2.0:
+p-limit@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-1.3.0.tgz#b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
   dependencies:
