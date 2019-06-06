@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vizeat",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Shareable ESLint config desgined by the VizEat Team",
   "main": "index.js",
   "repository": "https://github.com/vizeat/eslint-config-vizeat",
