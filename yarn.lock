@@ -473,14 +473,14 @@ eslint-config-standard@^13.0.1:
   resolved "https://registry.eatwith.io/eslint-config-standard/-/eslint-config-standard-13.0.1.tgz#c9c6ffe0cfb8a51535bc5c7ec9f70eafb8c6b2c0"
   integrity sha512-zLKp4QOgq6JFgRm1dDCVv1Iu0P5uZ4v5Wa4DTOkg2RFMxdCX/9Qf7lz9ezRj2dBRa955cWQF/O/LWEiYWAHbTw==
 
-eslint-config-vizeat@latest:
-  version "4.0.0"
-  resolved "https://registry.eatwith.io/eslint-config-vizeat/-/eslint-config-vizeat-4.0.0.tgz#1af5ab829662ea6f9751836c467177ccc2289b85"
-  integrity sha512-1ol6ZjK9iQOvSmb2sdJiZhMXZuNIxwEqOcqgB1d9tA9fJmdmwzz9nhS1z9mTZkEmZxzmQWBlJVh03CT/PO55xA==
+eslint-config-vizeat@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.eatwith.io/eslint-config-vizeat/-/eslint-config-vizeat-5.0.0.tgz#bc727d693ef87d1ecdaabea982f7c6e64e2c90ee"
+  integrity sha512-qruAwstD1fGvHb1O5fvBO0HtPJUUVTtQnlcg86V8IVIZFouezfENXURqxxrIxmUB4UUHn6y2gGR28n7EI7TpNw==
   dependencies:
     eslint-config-standard "^13.0.1"
     eslint-config-standard-jsx "^7.0.0"
-    eslint-plugin-react "^7.14.2"
+    eslint-plugin-react "^7.14.3"
     eslint-plugin-react-hooks "^1.6.1"
     eslint-plugin-standard "^4.0.0"
 
@@ -546,21 +546,6 @@ eslint-plugin-react-hooks@^1.6.1:
   version "1.6.1"
   resolved "https://registry.eatwith.io/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.6.1.tgz#3c66a5515ea3e0a221ffc5d4e75c971c217b1a4c"
   integrity sha512-wHhmGJyVuijnYIJXZJHDUF2WM+rJYTjulUTqF9k61d3BTk8etydz+M4dXUVH7M76ZRS85rqBTCx0Es/lLsrjnA==
-
-eslint-plugin-react@^7.14.2:
-  version "7.14.2"
-  resolved "https://registry.eatwith.io/eslint-plugin-react/-/eslint-plugin-react-7.14.2.tgz#94c193cc77a899ac0ecbb2766fbef88685b7ecc1"
-  integrity sha512-jZdnKe3ip7FQOdjxks9XPN0pjUKZYq48OggNMd16Sk+8VXx6JOvXmlElxROCgp7tiUsTsze3jd78s/9AFJP2mA==
-  dependencies:
-    array-includes "^3.0.3"
-    doctrine "^2.1.0"
-    has "^1.0.3"
-    jsx-ast-utils "^2.1.0"
-    object.entries "^1.1.0"
-    object.fromentries "^2.0.0"
-    object.values "^1.1.0"
-    prop-types "^15.7.2"
-    resolve "^1.10.1"
 
 eslint-plugin-react@^7.14.3:
   version "7.14.3"
