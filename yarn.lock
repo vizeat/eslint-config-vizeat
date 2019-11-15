@@ -506,10 +506,10 @@ eslint-config-standard@^14.1.0:
   resolved "https://registry.eatwith.io/eslint-config-standard/-/eslint-config-standard-14.1.0.tgz#b23da2b76fe5a2eba668374f246454e7058f15d4"
   integrity sha512-EF6XkrrGVbvv8hL/kYa/m6vnvmUT+K82pJJc4JJVMM6+Qgqh0pnwprSxdduDLB9p/7bIxD+YV5O0wfb8lmcPbA==
 
-eslint-config-vizeat@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.eatwith.io/eslint-config-vizeat/-/eslint-config-vizeat-5.1.0.tgz#3ce0cf8a664d3cf4585365eed3f6065d9a6804ca"
-  integrity sha512-ynLyFsDXc4yuEIMzKqrbtaXVFAonxhED8mmCpvMb0ZmgTOYVheUuS8BLRNNinuzqXVpnpgSAEzImKcn1YSCkhA==
+eslint-config-vizeat@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.eatwith.io/eslint-config-vizeat/-/eslint-config-vizeat-5.2.0.tgz#5b1950f7aaf56df18f98c106b69ca069d985b9c5"
+  integrity sha512-Rsv9qcXw87vcAP57WCqfEZ3+EpEJovXg3QM7W8iuYCFtrlp05C/t15u3YlCm6/X5/fk4QeE4CSos3y03GHRKpA==
   dependencies:
     eslint-config-standard "^14.1.0"
     eslint-config-standard-jsx "^8.1.0"
@@ -579,6 +579,11 @@ eslint-plugin-react-hooks@^2.0.1:
   version "2.2.0"
   resolved "https://registry.eatwith.io/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.2.0.tgz#078264e9e388da6929ace09d6abe92c85963aff4"
   integrity sha512-jSlnBjV2cmyIeL555H/FbvuSbQ1AtpHjLMHuPrQnt1eVA6lX8yufdygh7AArI2m8ct7ChHGx2uOaCuxq2MUn6g==
+
+eslint-plugin-react-hooks@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.eatwith.io/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.3.0.tgz#53e073961f1f5ccf8dd19558036c1fac8c29d99a"
+  integrity sha512-gLKCa52G4ee7uXzdLiorca7JIQZPPXRAQDXV83J4bUEeUuc5pIEyZYAZ45Xnxe5IuupxEqHS+hUhSLIimK1EMw==
 
 eslint-plugin-react@^7.14.3:
   version "7.16.0"

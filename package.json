@@ -16,13 +16,13 @@
     "eslint-config-standard": "^14.1.0",
     "eslint-config-standard-jsx": "^8.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1",
+    "eslint-plugin-react-hooks": "^2.3.0",
     "eslint-plugin-standard": "^4.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.4.0",
-    "eslint-config-vizeat": "5.1.0",
+    "eslint-config-vizeat": "5.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
