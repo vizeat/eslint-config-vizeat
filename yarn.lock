@@ -504,15 +504,15 @@ eslint-config-standard@^14.1.0:
   resolved "https://registry.npmjs.org/eslint-config-standard/-/eslint-config-standard-14.1.0.tgz#b23da2b76fe5a2eba668374f246454e7058f15d4"
   integrity sha512-EF6XkrrGVbvv8hL/kYa/m6vnvmUT+K82pJJc4JJVMM6+Qgqh0pnwprSxdduDLB9p/7bIxD+YV5O0wfb8lmcPbA==
 
-eslint-config-vizeat@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/eslint-config-vizeat/-/eslint-config-vizeat-5.2.0.tgz#5b1950f7aaf56df18f98c106b69ca069d985b9c5"
-  integrity sha512-Rsv9qcXw87vcAP57WCqfEZ3+EpEJovXg3QM7W8iuYCFtrlp05C/t15u3YlCm6/X5/fk4QeE4CSos3y03GHRKpA==
+eslint-config-vizeat@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.npmjs.org/eslint-config-vizeat/-/eslint-config-vizeat-5.3.0.tgz#076fb2618db85fde3f325d77a79599853cda8df7"
+  integrity sha512-/sVg3e4gd171ZaSXuN5BVMvgSx64ZbIz7J0aVNAhFuybbgjICkpr93RpVR3L3kPPlpYeGZegysji7hglf3onkw==
   dependencies:
     eslint-config-standard "^14.1.0"
     eslint-config-standard-jsx "^8.1.0"
     eslint-plugin-react "^7.14.3"
-    eslint-plugin-react-hooks "^2.0.1"
+    eslint-plugin-react-hooks "^2.3.0"
     eslint-plugin-standard "^4.0.1"
 
 eslint-import-resolver-node@^0.3.2:
@@ -573,7 +573,7 @@ eslint-plugin-promise@^4.2.1:
   resolved "https://registry.npmjs.org/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
   integrity sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
 
-eslint-plugin-react-hooks@^2.0.1, eslint-plugin-react-hooks@^2.3.0:
+eslint-plugin-react-hooks@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-2.3.0.tgz#53e073961f1f5ccf8dd19558036c1fac8c29d99a"
   integrity sha512-gLKCa52G4ee7uXzdLiorca7JIQZPPXRAQDXV83J4bUEeUuc5pIEyZYAZ45Xnxe5IuupxEqHS+hUhSLIimK1EMw==
