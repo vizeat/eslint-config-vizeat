@@ -12,13 +12,14 @@ it extends `vizeat` config and add JSX / React specific rules
 
 ## Usage
 
-At VizEat we use `eslint` and a config based on `eslint-config-standard` to lint our code and `eslint-prettier` to format it.
+At VizEat we use `eslint` and a config based on `eslint-config-standard` and `eslint-plugin-prettier` to lint & format our code.
 
 Here is how you can set it up to easily get up and running:
 
 ```sh
 yarn add --dev eslint-config-vizeat eslint-plugin-import eslint-plugin-node eslint-plugin-promise babel-eslint eslint
 ```
+> `eslint-plugin-import` `eslint-plugin-node` `eslint-plugin-promise` are peer dependencies of `eslint-config-standard`
 
 Then, extend `vizeat` or `vizeat/react` in your `.eslintrc` depending on the kind of projects you're working on.
 `vizeat/react` extends `vizeat` config so for mixed projects (React + SSR) `vizeat/react` is enough.
@@ -31,23 +32,6 @@ or
 
 ```json
 { "extends": ["vizeat/react"] }
-```
-
-## Going further
-
-At VizEat we also use `prettier-eslint-cli`
-
-```
-yarn add --dev prettier-eslint-cli
-```
-
-And setup helper script in our `package.json`:
-
-```
-"scripts": {
-  "lint": "eslint ./",
-  "fmt": "prettier-eslint \"{./*@(.js|.jsx),./!(node_modules|build|dist)/**/*@(.js|.jsx)}\" --write"
-}
 ```
 
 Happy hacking !
