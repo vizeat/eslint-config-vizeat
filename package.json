@@ -8,7 +8,8 @@
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
-    "eslint": "^6.0.0"
+    "eslint": "^6.0.0",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "eslint-config-prettier": "^6.7.0",
