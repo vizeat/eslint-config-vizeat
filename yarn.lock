@@ -427,6 +427,27 @@ eslint-config-vizeat@^5.3.0:
     eslint-plugin-react-hooks "^2.3.0"
     eslint-plugin-standard "^4.0.1"
 
+eslint-config-vizeat@^7.0.0-alpha.1:
+  version "7.0.0-alpha.1"
+  resolved "https://registry.npmjs.org/eslint-config-vizeat/-/eslint-config-vizeat-7.0.0-alpha.1.tgz#80becd821877b7604eb9b2df6d2a19d05b5f6c32"
+  integrity sha512-h+2JXfvMiGNCJsUBXRWQpg2ltF0g2q6OHOPpn6+mw92mmnml0k9CDmzVmquDsn4eD5Jko0OLnblXx2UL0bGytQ==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^2.11.0"
+    "@typescript-eslint/parser" "^2.11.0"
+    babel-eslint "^10.0.3"
+    eslint "^6.4.0"
+    eslint-config-prettier "^6.7.0"
+    eslint-config-standard "^14.1.0"
+    eslint-config-standard-jsx "^8.1.0"
+    eslint-config-vizeat "^5.3.0"
+    eslint-plugin-import "^2.19.1"
+    eslint-plugin-node "^10.0.0"
+    eslint-plugin-prettier "^3.1.1"
+    eslint-plugin-promise "^4.2.1"
+    eslint-plugin-react "^7.14.3"
+    eslint-plugin-react-hooks "^2.3.0"
+    eslint-plugin-standard "^4.0.1"
+
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
   resolved "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz#58f15fb839b8d0576ca980413476aab2472db66a"
@@ -1202,6 +1223,11 @@ prettier-linter-helpers@^1.0.0:
   integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
   dependencies:
     fast-diff "^1.1.2"
+
+prettier@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 progress@^2.0.0:
   version "2.0.3"
