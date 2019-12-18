@@ -38,7 +38,7 @@
   },
   "scripts": {
     "lint": "eslint ./",
-    "fmt": "prettier-eslint \"{./*@(.js|.jsx),./!(node_modules)/**/*@(.js|.jsx)}\" --write",
+    "fmt": "eslint ./ --fix",
     "pub": "yarn publish --registry https://registry.npmjs.com && git push --follow-tags"
   },
   "devDependencies": {
