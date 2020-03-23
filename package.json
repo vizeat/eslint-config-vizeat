@@ -18,7 +18,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.3.0",
     "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.1"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.13.0",
@@ -42,6 +42,6 @@
     "pub": "yarn publish --registry https://registry.npmjs.com && git push --follow-tags"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.1"
   }
 }
