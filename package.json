@@ -7,7 +7,7 @@
   "author": "Jérémie Parker <github@jeremie-parker.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^3.2.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^7.2.0",
@@ -21,7 +21,7 @@
     "prettier": "^2.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^3.2.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^7.2.0",
