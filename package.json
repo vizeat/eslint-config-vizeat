@@ -11,13 +11,12 @@
     "@typescript-eslint/parser": "^4.1.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^4.0.0",
-    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.1.2",
     "prettier": "^2.0.0"
   },
   "dependencies": {
@@ -30,11 +29,9 @@
     "eslint-config-standard-jsx": "^10.0.0",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^4.1.2",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint-plugin-react-hooks": "^4.1.2"
   },
   "scripts": {
     "lint": "eslint ./",
