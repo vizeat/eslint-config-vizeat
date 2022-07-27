@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vizeat",
-  "version": "11.3.1",
+  "version": "12.0.0-beta.0",
   "description": "Shareable ESLint config desgined by the VizEat Team",
   "main": "index.js",
   "repository": "https://github.com/vizeat/eslint-config-vizeat",
@@ -29,6 +29,7 @@
     "eslint-config-standard-jsx": "^11.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0"
@@ -39,6 +40,7 @@
     "pub": "yarn publish --registry https://registry.npmjs.com && git push --follow-tags"
   },
   "devDependencies": {
+    "eslint-plugin-n": "^15.2.4",
     "prettier": "^2.7.1"
   }
 }
