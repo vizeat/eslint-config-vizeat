@@ -1,1 +1,1 @@
-module.exports = require('./lib/react')
+export { default as react } from './lib/react.js'
