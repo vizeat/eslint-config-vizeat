@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vizeat",
-  "version": "13.0.0-beta.a3",
+  "version": "13.0.0-beta.a4",
   "description": "Shareable ESLint config desgined by the VizEat Team",
   "main": "index.js",
   "type": "module",
