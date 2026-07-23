@@ -1,1 +1,1 @@
-module.exports = require('./lib/typescript')
+export { default as typescript } from './lib/typescript.js'

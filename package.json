@@ -1,51 +1,34 @@
 {
   "name": "eslint-config-vizeat",
-  "version": "12.1.1",
+  "version": "13.0.0-beta.a8",
   "description": "Shareable ESLint config desgined by the VizEat Team",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/vizeat/eslint-config-vizeat",
   "author": "Jérémie Parker <github@jeremie-parker.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@babel/core": "^7.18.9",
-    "@babel/eslint-parser": "^7.18.9",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
-    "eslint": "^8.20.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.4",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1"
+    "eslint": ">= 9"
   },
   "dependencies": {
-    "@babel/core": "^7.18.9",
-    "@babel/eslint-parser": "^7.18.9",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
-    "eslint": "^8.20.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-config-standard-jsx": "^11.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.4",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@babel/core": "^8.0.1",
+    "@babel/eslint-parser": "^8.0.1",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.0.0",
+    "neostandard": "^0.13.0",
+    "prettier": "^3.9.6",
+    "typescript": "6",
+    "typescript-eslint": "^8.52.0"
   },
   "scripts": {
     "lint": "eslint ./",
     "fmt": "eslint ./ --fix",
-    "pub": "yarn publish --registry https://registry.npmjs.com && git push --follow-tags"
-  },
-  "devDependencies": {
-    "eslint-plugin-n": "^15.2.4",
-    "prettier": "^2.7.1"
+    "pub": "yarn publish --registry https://registry.npmjs.org && git push --follow-tags",
+    "pub:beta": "yarn publish --registry https://registry.npmjs.org --tag beta && git push --follow-tags"
   }
 }
