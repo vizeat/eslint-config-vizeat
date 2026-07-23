@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vizeat",
-  "version": "13.0.0-beta.a5",
+  "version": "13.0.0-beta.a6",
   "description": "Shareable ESLint config desgined by the VizEat Team",
   "main": "index.js",
   "type": "module",
@@ -27,7 +27,7 @@
   "scripts": {
     "lint": "eslint ./",
     "fmt": "eslint ./ --fix",
-    "pub": "yarn publish --registry https://registry.npmjs.com && git push --follow-tags",
-    "pub:beta": "yarn publish --registry https://registry.npmjs.com --tag beta && git push --follow-tags"
+    "pub": "yarn publish --registry https://registry.npmjs.org && git push --follow-tags",
+    "pub:beta": "yarn publish --registry https://registry.npmjs.org --tag beta && git push --follow-tags"
   }
 }
